@@ -13,6 +13,17 @@
                     "url": "https://apify.com"
                 }
             ]
+        },
+        "DepartureCities": {
+            "title": "Cities to leave from",
+            "type": "array",
+            "description": "Cities to start with.",
+            "editor": "requestListSources",
+            "prefill": [
+                {
+                    "City": "Prague"
+                }
+            ]
         }
     }
 }
